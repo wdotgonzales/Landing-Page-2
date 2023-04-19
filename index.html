@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+
+<style>
+    /* Navbar */
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .navbar-main-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 1400px;
+        padding-block: 0.8em;
+    }
+
+    .navbar-mini-container-1 a {
+        text-decoration: none;
+        color: black;
+        font-size: 21px;
+        margin-right: 1em;
+
+    }
+
+    .navbar-mini-container-1 {
+        margin-top: 0.3em;
+    }
+
+
+    .navbar-mini-container-2 p {
+        font-size: 30px;
+        font-weight: bold;
+        margin-right: 3em;
+    }
+
+    .navbar-mini-container-3 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navbar-img img {
+        width: 25px;
+    }
+
+    .navbar-img-2,
+    .navbar-img-3 {
+        margin-left: 2em;
+    }
+
+    /* Navbar End*/
+
+
+    /* Header */
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .header-main-container {
+        background-image: url(header-img-2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        height: 650px;
+    }
+
+    .header-main-container {
+        margin: 0 auto;
+        width: 1400px;
+        border-radius: 7px;
+    }
+
+    .header-text-1 {
+        color: pink;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    .header-text-2 {
+        font-size: 60px;
+        color: black
+    }
+
+    .header-text-3 {
+        color: black;
+        font-size: 16.5px;
+        margin-bottom: 2em;
+    }
+
+    .header-button {
+        text-decoration: none;
+        color: white;
+        background-color: red;
+        padding-block: 0.9em;
+        border-radius: 6.5px;
+        padding-inline: 1.5em;
+    }
+
+    .header-text-container {
+        width: 550px;
+
+        margin-left: 2em;
+        padding-top: 12em;
+
+    }
+
+    /* Header End */
+
+    /* Section 1  */
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .section1-text-1,
+    .section1-text-2 {
+        text-align: center;
+    }
+
+    .section1-text-1 {
+        font-size: 40px;
+        margin-top: 2em;
+    }
+
+    .section1-text-2 {
+        font-size: 17px;
+        margin-top: 2em;
+        margin-bottom: 2em;
+
+        margin-inline: 510px;
+    }
+
+    .section1-main-container {
+        width: 1400px;
+        margin: 0 auto;
+    }
+
+    .section-1-img-item1 img,
+    .section-1-img-item2 img,
+    .section-1-img-item3 img,
+    .section-1-img-item4 img {
+        width: 150px;
+        border-radius: 50%;
+        width: 135px;
+        height: 145px;
+        border: 2px solid pink;
+    }
+
+    .section-1-img-item1 p,
+    .section-1-img-item2 p,
+    .section-1-img-item3 p,
+    .section-1-img-item4 p {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 0.5em;
+    }
+
+    .section1-img-container {
+        display: flex;
+        margin: 0 auto;
+        width: 890px;
+        gap: 7em;
+        padding-bottom: 7em;
+    }
+
+    /* Section 1 End */
+
+
+    /* Section 2  */
+
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .section2-main-container {
+        width: 1400px;
+        margin: 0 auto;
+    }
+
+    .section2-text {
+        text-align: center;
+        font-size: 30px;
+        padding-block: 0.5em;
+        font-weight: bold;
+    }
+
+    .section2-img-container {
+        display: flex;
+        gap: 2.5em;
+
+        padding-block: 5.5em;
+    }
+
+    .section2-img-item1 img,
+    .section2-img-item2 img,
+    .section2-img-item3 img,
+    .section2-img-item4 img {
+        width: 320px;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .section2-img-text1,
+    .section2-img-text4,
+    .section2-img-text7,
+    .section2-img-text10 {
+        font-size: 19px;
+        padding-block: 0.4em;
+    }
+
+    .section2-img-text2,
+    .section2-img-text5,
+    .section2-img-text8,
+    .section2-img-text11 {
+        font-size: 25px;
+
+        padding-bottom: 0.3em;
+    }
+
+    /* Section 2 End */
+
+    /* Footer 1 */
+    .footer1-main-container {
+        background-color: black;
+        color: white;
+    }
+
+    .footer1-container {
+        width: 1400px;
+        margin: 0 auto;
+        display: flex;
+
+        gap: 2.5em;
+    }
+
+    .footer1-item>ul li {
+        list-style: none;
+        margin-block: 2em;
+        font-size: 13px;
+    }
+
+    .footer1-item1 {
+        width: 600px;
+    }
+
+    .footer1-item2 {
+        width: 400px;
+    }
+
+    .footer1-item3 {
+        width: 300px;
+    }
+
+    .footer1-item1 p {
+        font-size: 15px;
+
+    }
+
+    .footer1-item1 h2 {
+        font-size: 31px;
+        margin-top: 0.7em;
+        margin-bottom: 0.5em;
+    }
+
+    /* Footer 1 End */
+
+
+    /* Footer 2 */
+
+    *,*::before , *::after{
+        margin: 0;
+        padding: 0;
+        box-sizing: border;
+    }
+    .footer2-main-container {
+        background-color: black;
+        padding-bottom: 2.5em;
+    }
+
+    .footer2-container {
+        width: 1400px;
+        margin: 0 auto;
+
+        display: flex;
+
+        justify-content: space-between;
+    }
+
+    .footer2-item a {
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+    }
+
+    .footer2-item1 a {
+        margin-right: 0.5em;
+    }
+
+    .footer2-item1 a:nth-of-type(5) {
+        border: 1px solid grey;
+        color: grey;
+
+        padding-block: 0.5em;
+        padding-inline: 1em;
+    }
+
+    .footer2-item1 a:nth-of-type(5):hover {
+        border: 1px solid white;
+        color: white;
+    }
+
+    
+</style>
+
+<body>
+    <!-- Navbar-->
+    <div class="navbar-main-container">
+        <div class="navbar-mini-container navbar-mini-container-1">
+            <a href="">Home</a>
+            <a href="">Shop</a>
+            <a href="">Pages</a>
+            <a href="">Lookbook</a>
+            <a href="">Contact</a>
+        </div>
+
+        <div class="navbar-mini-container navbar-mini-container-2">
+            <p>Le Castelle<span style="color: red;">.</span></p>
+        </div>
+
+        <div class="navbar-mini-container navbar-mini-container-3">
+            <div class="navbar-img navbar-img-1">
+                <img src="navbar-icon-1.png" alt="">
+            </div>
+
+            <div class="navbar-img navbar-img-2">
+                <img src="navbar-icon-2.png" alt="">
+            </div>
+
+            <div class="navbar-img navbar-img-3">
+                <img src="navbar-icon-3.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End-->
+
+    <!-- Header -->
+    <div class="header-main-container">
+        <div class="header-text-container">
+            <p class="header-text-1">UP TO 20% DISCOUNT ON</p>
+            <h1 class="header-text-2">Girl's Fashion</h1>
+            <p class="header-text-3">Girl's fashion encompasses the diverse range of styles and trends worn by girls,
+                often influenced by pop
+                culture,
+                social media, and individual expression, with a focus on versatility, comfort, and self-expression,</p>
+
+            <a href="" class="header-button">EXPLORE NOW</a>
+        </div>
+    </div>
+    <!-- End Header -->
+
+
+    <!-- Section 1  -->
+    <div class="section1-main-container">
+        <h2 class="section1-text-1">Top Categories</h2>
+        <p class="section1-text-2">These are the categories of products that our company Le Castelle has to offer.</p>
+
+        <div class="section1-img-container">
+            <div class="section-1-img-item1">
+                <img src="section1-img-1.jpg" alt="">
+                <p>Accessories</p>
+            </div>
+
+            <div class="section-1-img-item2">
+                <img src="section1-img-2.jpg" alt="">
+                <p>Dress Collection</p>
+            </div>
+
+            <div class="section-1-img-item3">
+                <img src="section1-img-3.jpg" alt="">
+                <p>Jewellery</p>
+            </div>
+
+            <div class="section-1-img-item4">
+                <img src="section1-img-4.jpg" alt="">
+                <p>Cosmetics</p>
+            </div>
+        </div>
+    </div>
+    <!-- Section 1 End -->
+
+
+    <!-- Section 2 -->
+
+    <div class="section2-main-container">
+        <hr>
+        <p class="section2-text">CELEBRITY STYLE</p>
+        <hr>
+
+        <div class="section2-img-container">
+
+            <div class="section2-img-item1">
+                <img src="section2-img-1.jpg" alt="">
+                <p class="section2-img-text1">Celebrity Style</p>
+                <p class="section2-img-text2">Blackpink Has Always Nailed the Art of Coordinated Style</p>
+                <p class="section2-img-text3">BY CHRISTIAN ALLAIRE</p>
+            </div>
+
+            <div class="section2-img-item2">
+                <img src="section2-img-2.jpg" alt="">
+                <p class="section2-img-text4">Celebrity Style</p>
+                <p class="section2-img-text5">Rihanna Puts a New Twist on an Iconic Y2K Top</p>
+                <p class="section2-img-text6">BY CHRISTIAN ALLAIRE</p>
+            </div>
+
+            <div class="section2-img-item3">
+                <img src="section2-img-3.jpg" alt="">
+                <p class="section2-img-text7">Celebrity Style</p>
+                <p class="section2-img-text8">Kim Kardashian Is the Met Gala's Queen of Bodycon</p>
+                <p class="section2-img-text9">BY CHRISTIAN ALLAIRE</p>
+            </div>
+
+            <div class="section2-img-item4">
+                <img src="section2-img-4.jpg" alt="">
+                <p class="section2-img-text10">Celebrity Style</p>
+                <p class="section2-img-text11">For Her First-Ever Coachella Performance, Ethel Cain Went Full Dress in
+                    Givenchy</p>
+                <p class="section2-img-text12">BY CHRISTIAN ALLAIRE</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 2  -->
+
+
+    <!-- Footer 1 -->
+
+    <div class="footer1-main-container">
+        <div class="footer1-container">
+            <div class="footer1-item1 footer1-item">
+                <h2>La Castelle</h2>
+                <p>The latest fashion news, beauty coverage, celebrity style, fashion week updates, culture reviews, and
+                    videos on lacastelle.com.</p>
+            </div>
+
+            <div class="footer1-item2 footer1-item">
+                <ul>
+                    <li style="font-weight: bold;">MORE FROM LA CASTELLE</li>
+                    <li>NEWSLETTER</li>
+                    <li>CUSTOMER CARE</li>
+                    <li>VERIFY SUBSCRIPTION</li>
+                    <li>CONTACT US</li>
+                    <li>ABOUT LA CASTELLE</li>
+                    <LI>CAREERS</LI>
+                </ul>
+            </div>
+
+            <div class="footer1-item3 footer1-item">
+                <ul>
+                    <li style="font-weight: bold;">SEE MORE STORIES</li>
+                    <li>FASHION</li>
+                    <li>BEAUTY</li>
+                    <li>CULTURE</li>
+                    <li>LIVING</li>
+                    <li>RUNWAY</li>
+                    <li>SHOPPING</li>
+                    <li>MAGAZINE</li>
+                </ul>
+            </div>
+        </div>
+
+        <div style="background-color: black; padding-block: 2em; width: 1400px; margin: 0 auto;">
+            <hr>
+        </div>
+    </div>
+
+
+
+    <!-- Footer 1 End -->
+
+
+
+    <!-- Footer 2  -->
+
+    <div class="footer2-main-container">
+
+        <div class="footer2-container">
+            <div class="footer2-item1 footer2-item">
+                <a href="">ACCESSIBILITY HELP | </a>
+                <a href="">MASTHEAD | </a>
+                <a href="">VISUAL STORIES | </a>
+                <a href="">CONDÉ NAST SPOTLIGHT</a>
+                <a href="" class="cookiessettings">COOKIES SETTINGS</a>
+            </div>
+
+            <div class="footer2-item2 footer2-item">
+                <a href="">Created By : Group 7</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer 2 End -->
+</body>
+
+</html>
